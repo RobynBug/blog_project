@@ -1,0 +1,51 @@
+@import url(blog_page.css);
+@import url(large_screen.css);
+@import url(home.css);
+
+
+
+* {
+    background-color: rgb(255, 255, 240);
+    color: rgb(65, 82, 31);
+}
+
+
+.icons {
+    width: 30px;
+}
+
+.button {
+    width: 10rem;
+    height: 2rem;
+    font-size: 1.2rem;
+}
+
+.navlist li, .nav_list li {
+    list-style: none;
+    font-size: 1rem;
+    margin-right: 10%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+    
+.navlist, .nav_list{
+    display: flex;
+    font-size: 1rem;
+}
+    
+.navlist a, .nav_list a {
+    margin: 1rem;
+}
+
+
+.navigationBar li, .blog_navigation li {
+    margin: 20px;
+    text-decoration: none;
+    border: solid 2px black;
+    min-width: 170px;
+    padding: 1rem;
+    font-size: 1.5rem;
+    color: #22031F;
+    font-weight: bold;
+    box-shadow: 2px 2px 5px #22031F;
+}
+     

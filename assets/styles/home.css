@@ -1,0 +1,143 @@
+
+.container {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 90vw;
+    grid-template-rows: 15rem 10rem 40rem auto;
+    grid-template-areas: 
+    "sd"
+    "hd"
+    "main"
+    "main"
+    "main"
+    "post"
+    "post"
+    "ft";    
+}
+
+.header {
+    grid-area: hd;
+    margin-left: 2rem;
+    padding: 0%;
+}
+
+
+.main {
+    grid-area: main;
+    margin-left: 1rem;
+    margin-right: 4rem;
+    
+ }
+
+ .main-image {
+    grid-area: photo;
+ }
+
+  #contact {
+    grid-area: ft;    
+ }
+
+.description {
+    text-align: center;
+}
+
+
+.main p {
+    font-size: 1.5rem;
+}
+
+.title {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 6rem;
+    display: grid;
+    justify-items: center;
+}
+
+.main-container {
+display: flex;
+padding: 5%;
+}
+
+.main-image {
+display: flex;
+align-items: center;
+margin-bottom: 1rem;
+}
+
+.main_image_home {
+height: 32.5rem;
+margin: auto;;
+}
+
+.blog_card {
+display: flex;
+flex-direction: column;
+background-color: rgb(166, 196, 138, 0.7);
+border-radius: 6px;
+padding: 2%;
+align-items: center;
+border: solid 2px #22031F;
+box-shadow: #22031F 3px 5px 5px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.blog_card p {
+    background-color: rgb(255, 255, 240, 0.8);
+}
+
+
+
+.main_paragraph {
+display: flex;
+padding: 3px;
+border: solid 3px #F6E7CB;
+box-shadow: 10px 5px 5px #41521F;
+width: 90%;
+}
+
+#contact ul {
+display: flex;
+margin: auto;
+text-decoration: underline;
+}
+
+#contact a {
+margin: 1rem;
+}
+
+
+.blog_image {
+width: auto;
+height: 20rem;
+border-radius: 8px;
+}
+
+.blog_post_card {
+width: auto;
+height: auto;
+border: solid 2px darkgreen;
+padding: 1rem;
+margin: 0.5rem;
+border-radius: 5px;
+box-shadow: #41521F 5px 3px 2px;
+margin-right: 4rem;
+}
+
+.blog_post_container {
+grid-area: post;
+display: flex;
+flex-wrap:wrap;
+flex-shrink: inherit;
+margin-left: 1rem;
+}
+
+.main img {
+    display: flex;
+    border: solid 15px rgb(221, 151, 135);
+    flex-wrap: wrap;
+    border-radius: 3px;
+}
+
+.navigationBar {
+    grid-area: sd;
+}
